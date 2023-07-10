@@ -19,6 +19,24 @@ body {
   max-width: 1250px;
   margin: 0 auto;
 }
+.section-break{
+    margin-top: 128px;
+}
+.heading{
+    color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.paragraph{
+    color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
 .banner-container {
   height: 100vh;
   display: flex;
@@ -31,7 +49,7 @@ body {
 }
 .banner-img {
   width: 550px;
-  height: 615px;
+  height: 610px;
   padding-top: 50px;
 }
 .banner-heading {
@@ -59,32 +77,14 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  padding: 50px 30px;
 }
-.hot-deals-heading {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
-}
+
 .hot-deals-color {
   color: #e55473;
 }
-.hot-deals-paragraph {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin-bottom: 24px;
-  margin-top: 24px;
-}
 
 /* instragram-section-styles */
-.instagram-heading {
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-}
 .instagram-container {
   display: flex;
   justify-content: space-between;
