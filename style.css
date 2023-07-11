@@ -191,7 +191,7 @@ select {
 /* instragram-section-styles */
 .instagram-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .instagram-container .box > img {
   width: 250px;
