@@ -1,10 +1,9 @@
-body {
-  font-family: "Lato", sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
 }
 .btn {
   padding: 20px 43px;
@@ -124,25 +123,69 @@ body {
 }
 
 /* bonus-section-styles */
-.bonus-container{
+.bonus-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 105px;
   padding-left: 120px;
 }
-.bonus-heading{
+.bonus-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.bonus-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+.bonus-form-heading{
   color: #272727;
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
 }
-.bonus-paragraph{
+.bonus-form {
+  background-color: #e554731a;
+  padding: 40px;
+  /* width: 425px; */
+}
+fieldset {
+  padding: 20px;
+  margin-bottom: 15px;
   color: rgba(39, 39, 39, 0.6);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 48px;
-    margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+legend {
+  text-align: center;
+  font-size: 22px;
+}
+.bonus-form input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  width: 311px;
+  height: 45px;
+  padding: 5px 88px 0 20px;
+  border: 0;
+  margin-bottom: 15px;
+}
+.bonus-form select {
+  width: 100%;
+}
+.flower {
+  padding: 30px;
 }
 
 /* instragram-section-styles */
